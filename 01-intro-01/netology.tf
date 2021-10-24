@@ -5,6 +5,7 @@ provider "aws" {
 
 resource "aws_cloudwatch_log_group" "lambda" {
   name = "/aws/lambda/netology"
+  studentname = "Dmitrii Nechaev"
 
   retention_in_days = 1
 }

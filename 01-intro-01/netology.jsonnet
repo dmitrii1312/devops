@@ -2,7 +2,7 @@ local k = (import 'ksonnet-util/kausal.libsonnet');
 
 {
   _config:: {
-    name: 'change_me',
+    name: 'Dmitrii Nechaev',
     namespace: std.extVar('qbec.io/defaultNs'),
 
     container: {
